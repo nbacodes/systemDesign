@@ -1,7 +1,15 @@
 public class MiniDuckSimulator {
     public static void  main(String[] args) {
         Duck mallard = new MallardDuck();
+        mallard.display();
         mallard.performQuack();
         mallard.performFly();
+
+        Duck model = new ModelDuck();
+        model.display();
+        model.performFly();
+        model.setFlyBehaviour(new FlyRocketPowered());
+        System.out.println("Changed the flying state at runtime");
+        model.performFly();
     }
 }
