@@ -1,3 +1,5 @@
 1. Identify the aspects of your application which varies and seperate them from what stays same.
+
 2. Program to an interface, not an implimentation.
 
+3. Prefer Comoposition over inheritence.
