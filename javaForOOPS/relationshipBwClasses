@@ -1,0 +1,9 @@
+In java the classes interact with each other in 3 ways...
+
+1. Association: Here one class is just associated with other class..all these classes are indenpendent. The relation could be one to one, many to 
+one, many to many.
+
+2. Aggeration: In this relationship one class; the whole is having parts of other class, the parts; and the exsistence of parts is not dependent on 
+the whole class. For ex: books in a library, the books can be kept any where else, if library goes down.
+
+3. Composition: It is strict form of aggreation where if the whole gets destroyed the parts also gets destroyed. For ex: rooms of a house. 
