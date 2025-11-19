@@ -1,0 +1,9 @@
+1. The stratagy Pattern: A group of algorithm is seperated form others, and they are encapsupated and can be interchanged.
+    
+    a. Identify the aspects of your application which varies and seperate them from what stays same.
+
+    b. Program to an interface, not an implimentation.
+
+    c. Prefer Comoposition over inheritence.
+
+2.
